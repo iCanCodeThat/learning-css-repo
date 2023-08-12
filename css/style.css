@@ -1,0 +1,33 @@
+/*Universal Selector*/
+
+body {
+    font-size: 22px;
+    border: 3px solid black;
+}
+main {
+    font-family: monospace;
+    
+}
+h1, h2 {
+    color: red;
+}
+/*Important overrides everything*/
+p {
+    color: purple!important;
+}
+p {
+    color: cyan;
+}
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+/* CLASS */
+.gray {
+    color: gray;
+}
+/* ID 
+More Specific*/
+#second {
+    font-style: italic;
+}
